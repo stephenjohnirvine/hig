@@ -18,6 +18,7 @@ const THROTTLE_WAIT = 50;
 class ColumnResizer extends React.PureComponent {
   /** @todo Don't store component state on class properties */
   lastX = INVALID_VALUE;
+
   width = 0;
 
   handleDrag = (e, data) => {
