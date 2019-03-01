@@ -37,6 +37,7 @@ Tab.defaultProps = {
    * @param {RenderTabPayload} props
    * @returns {JSX.Element}
    */
+  /* eslint-disable react/prop-types */
   render({ handleClick, handleKeyDown, label, ...otherProps }) {
     return (
       <ControlBehavior key={label}>
@@ -64,6 +65,7 @@ Tab.defaultProps = {
       </ControlBehavior>
     );
   }
+  /* eslint-disable react/prop-types */
 };
 
 Tab.propTypes = {
