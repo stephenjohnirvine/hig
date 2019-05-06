@@ -1,6 +1,8 @@
 import AvatarPage from "./pages/AvatarPage";
+import MuiAvatarPage from "./pages/mui/AvatarPage";
 import BannerPage from "./pages/BannerPage";
 import ButtonsPage from "./pages/ButtonsPage";
+import MuiButtonsPage from "./pages/mui/ButtonsPage";
 import FlyoutPage from "./pages/FlyoutPage";
 import CheckboxPage from "./pages/CheckboxPage";
 import DropdownPage from "./pages/DropdownPage";
@@ -20,7 +22,9 @@ import TypographyPage from "./pages/TypographyPage";
 
 export default [
   { path: "/avatar/", component: AvatarPage, label: "Avatar" },
+  { path: "/mui/avatar/", component: MuiAvatarPage, label: "Mui Avatar" },
   { path: "/button/", component: ButtonsPage, label: "Button" },
+  { path: "/mui/buttons/", component: MuiButtonsPage, label: "Mui Buttons" },
   { path: "/banner/", component: BannerPage, label: "Banner" },
   { path: "/dropdown/", component: DropdownPage, label: "Dropdown" },
   { path: "/flyout/", component: FlyoutPage, label: "Flyout" },
